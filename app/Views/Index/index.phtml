@@ -1,5 +1,11 @@
 <h1>Index</h1>
 
-<?php 
-print $this->view->data;
+<?php
+
+foreach($this->view->data as $index => $value) {
+	echo $value['descricao'] .' - ';
+	echo $value['preco'];
+	echo '<br />';
+}
+
 ?>
