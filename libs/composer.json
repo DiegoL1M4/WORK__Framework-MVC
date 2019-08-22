@@ -1,0 +1,21 @@
+{
+	"name": "framework-mvc",
+
+	"require": {
+		"php": ">= 7.0"
+	},
+
+	"authors": [
+		{
+			"name": "Diego Lima Pinheiro",
+			"email": "diego@diego.com"
+		}
+	],
+
+	"autoload": {
+		"psr-4": {
+			"app\\": "../app/",
+			"MF\\": "vendor/MF/"
+		}
+	}
+}
