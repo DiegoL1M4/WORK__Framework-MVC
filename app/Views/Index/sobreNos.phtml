@@ -1,5 +1,7 @@
 <h1>Sobre Nos</h1>
 
-<?php 
-print $this->view->data;
-?>
+<?php foreach($this->view->data as $index => $value) { ?>
+	<?= $value['titulo'] .' - ' ?>
+	<?= $value['descricao'] ?>
+	<hr />
+<?php } ?>

@@ -3,6 +3,7 @@
 <?php
 
 foreach($this->view->data as $index => $value) {
+	echo $value['id'] .' - ';
 	echo $value['descricao'] .' - ';
 	echo $value['preco'];
 	echo '<br />';
